@@ -1,0 +1,275 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Замінено на min-height */
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 30px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto; /* Додано для автоматичного центрування */
+    /* Решта стилів залишаються незмінними */
+}
+
+.full-width-container {
+    width: 100%; /* Займає всю ширину сторінки */
+    min-height: 500px; /* Встановіть потрібну мінімальну висоту */
+    background-color: #f5f5f5; /* Фоновий колір для нового контейнера */
+     margin-top: 30vh;
+     margin-bottom: 30vh;
+    /* Додайте інші стилі, якщо потрібно */
+}
+.about-us {
+    text-align: center; /* Центрування тексту */
+    padding: 20px; /* Додавання відступу всередині контейнера */
+    background-color: #ffffff; /* Білий фон для контейнера */
+    margin: 20px auto; /* Відступ зверху та знизу, автоматичне центрування по горизонталі */
+     /* Максимальна ширина контейнера */
+    border-radius: 10px; /* Заокруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додавання тіні для контейнера */
+    width: 180vh;
+    height: 70vh;
+}
+
+.site-footer {
+    background-color: #333; /* Темний фон */
+    color: #fff; /* Білий текст */
+    text-align: center; /* Центрування тексту */
+    padding: 20px 0; /* Вертикальні відступи */
+}
+
+.footer-content {
+    margin: auto; /* Автоматичне центрування */
+    max-width: 600px; /* Максимальна ширина контенту */
+}
+
+.site-footer h3 {
+    margin-top: 0; /* Видалення верхнього відступу для заголовка */
+}
+
+#colorDisplay {
+    height: 165px; /* Висота для показу кольору */
+    margin: 20px 0; /* Вертикальний відступ для показу кольору */
+    background-color: #fff; /* Початковий фон для показу кольору */
+    border-radius: 10px; /* Заокруглені краї для показу кольору */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* М'яка тінь для контейнера */
+
+}
+
+.input-group {
+    display: flex; /* Елементи в один ряд */
+    justify-content: center; /* Центрування елементів */
+    margin-bottom: 20px; /* Відступ знизу */
+}
+
+.input-group input[type="number"] {
+    margin: 0 10px; /* Відступи з боків для полів вводу */
+    font-size: 1em; /* Розмір шрифту для полів вводу */
+    padding: 10px; /* Внутрішній відступ для полів вводу */
+    border: 1px solid #ddd; /* Колір обводки для полів вводу */
+    border-radius: 5px; /* Заокруглені краї для полів вводу */
+    width: 150px; /* Ширина полів вводу */
+}
+
+#downloadBtn {
+    padding: 15px 30px; /* Внутрішній відступ для кнопки завантаження */
+    font-size: 1em; /* Розмір шрифту для кнопки завантаження */
+    border: none; /* Видалення обводки для кнопки завантаження */
+    border-radius: 5px; /* Заокруглені краї для кнопки завантаження */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для кнопки завантаження */
+    background-color: #000; /* Колір фону для кнопки завантаження */
+    color: #fff; /* Колір тексту для кнопки завантаження */
+    cursor: pointer;
+    width: 100%; /* Ширина кнопки завантаження */
+}
+
+#fullscreenBtn {
+    padding: 10px 20px; /* Внутрішній відступ для кнопок */
+    font-size: 1em; /* Розмір шрифту для кнопок */
+    border: 1px solid #ddd; /* Колір обводки для кнопок */
+    border-radius: 5px; /* Заокруглені краї для кнопок */
+    background-color: #fff; /* Колір фону для кнопок */
+    cursor: pointer;
+}
+
+ #colorPicker {
+    padding: 10px; /* Уніфікуємо розміри кнопок */
+    margin: 0 5px; /* Забезпечуємо однакові відступи */
+    font-size: 1em; /* Уніфікуємо розмір шрифту */
+    border: 1px solid #ddd; /* Уніфікуємо обводку */
+    border-radius: 5px; /* Уніфікуємо заокруглення країв */
+    cursor: pointer;
+    background-color: #fff; /* Уніфікуємо фоновий колір */
+    display: inline-flex; /* Для вирівнювання іконки всередині кнопки */
+    justify-content: center; /* Центрування контенту горизонтально */
+    align-items: center; /* Центрування контенту вертикально */
+    position: relative; /* Для позиціонування псевдоелементів */
+    height: 40px; /* Задаємо висоту кнопки */
+    width: 40px; /* Задаємо ширину кнопки */
+}
+.controls {
+    display: flex; /* Елементи в один ряд */
+    align-items: center; /* Вирівнювання по центру по вертикалі */
+    justify-content: center; /* Центрування елементів */
+    margin-bottom: 10px;
+}
+
+#fullscreenBtn {
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    line-height: 1; /* Видаліть будь-який додатковий відступ всередині кнопок */
+}
+
+
+
+#colorPicker::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+#colorPicker::-webkit-color-swatch {
+    border: none;
+}
+
+#colorPicker::-moz-color-swatch {
+    border: none;
+}
+
+#colorPicker::-moz-focus-inner,
+#colorPicker::-moz-focus-outer,
+#colorPicker::-moz-focusring {
+    border: none;
+}
+
+/* Для забезпечення сумісності із браузерами без підтримки ::-webkit-color-swatch */
+#colorPicker input[type='color']::-moz-color-swatch {
+    height: 100%; /* Заповнює висоту батьківського елемента */
+    width: 100%;  /* Заповнює ширину батьківського елемента */
+    border-radius: 5px; /* Заокруглені краї */
+}
+/* Стилі для навігаційної панелі */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5; /* Той самий колір, що й задній фон */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь для відділення */
+    z-index: 1000; /* Забезпечує, що навігаційна панель буде над іншими елементами */
+    padding: 20px 20px; /* Збільшений верхній та нижній відступ */
+    transition: top 0.3s; /* Плавний перехід для верхнього відступу */
+}
+.navbar-hidden {
+    top: -100px; /* Зміщуємо навбар за верхню межу екрану */
+}
+/* Стилі для посилань у навігаційному барі */
+.navbar a {
+    color: black; /* Задає чорний колір тексту */
+    text-decoration: none; /* Видаляє підкреслення */
+    transition: color 0.3s; /* Додає плавний перехід для кольору */
+}
+
+/* Стилі для посилань при наведенні та активного стану (натиснутий) */
+.navbar a:hover,
+.navbar a:active {
+    color: grey; /* Задає сірий колір тексту при наведенні та натисканні */
+}
+
+.navbar-content {
+    display: flex; /* Використання flexbox */
+    justify-content: space-between; /* Розподіл простору між елементами */
+    align-items: center; /* Вирівнювання елементів по центру */
+    margin: 0 auto;
+    width: 100%; /* Ширина на весь контейнер */
+}
+
+.navbar-brand {
+    /* Стилі для назви "oltjambik" */
+    font-size: 1.5em; /* Більший розмір шрифту */
+    /* Додайте інші стилі, якщо потрібно */
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-left: 20px; /* Відступ між посиланнями */
+    font-size: 1.2em;
+}
+
+.navbar-links a:hover,
+.navbar-links a:active {
+    color: grey;
+}
+
+
+/* Ваші інші стилі... */
+
+/* Додайте відступ зверху для .container, щоб уникнути перекриття з .navbar */
+.container {
+    margin-top: 80px; /* Збільште цей відступ, якщо .navbar вищий */
+    /* Решта ваших стилів для .container... */
+}
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #000; /* Adjust the border color to match your site */
+  border-radius: 4px;
+}
+
+.form-group label {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  padding: 0 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background: #000; /* Adjust the button color to match your site */
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#sendbutton{
+    padding: 15px 30px; /* Внутрішній відступ для кнопки завантаження */
+    font-size: 1em; /* Розмір шрифту для кнопки завантаження */
+    border: none; /* Видалення обводки для кнопки завантаження */
+    border-radius: 5px; /* Заокруглені краї для кнопки завантаження */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для кнопки завантаження */
+    background-color: #000; /* Колір фону для кнопки завантаження */
+    color: #fff; /* Колір тексту для кнопки завантаження */
+    cursor: pointer;
+    width: 100%; /* Ширина кнопки завантаження */
+    font-family: 'Nunito', sans-serif;}
